@@ -8,8 +8,16 @@
     <author>
       <name>imtx</name>
     </author>
-    <updated>2024-10-09T16:55:28.568Z</updated>
+    <updated>2024-10-09T17:16:07.000Z</updated>
     <category term="博客，笔记" />
+    <entry>
+        <id>https://imtangx.github.io/my-first-post/</id>
+        <title>my first post</title>
+        <link rel="alternate" href="https://imtangx.github.io/my-first-post/"/>
+        <content type="html">&lt;h2 id=&#34;嗯嗯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#嗯嗯&#34;&gt;#&lt;/a&gt; 嗯嗯&lt;/h2&gt;
+</content>
+        <updated>2024-10-09T17:16:07.000Z</updated>
+    </entry>
     <entry>
         <id>https://imtangx.github.io/hello-world/</id>
         <title>Hello World</title>

@@ -10,9 +10,17 @@
         </author>
         <description>imtx的博客</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 10 Oct 2024 00:55:28 +0800</pubDate>
-        <lastBuildDate>Thu, 10 Oct 2024 00:55:28 +0800</lastBuildDate>
+        <pubDate>Thu, 10 Oct 2024 01:16:07 +0800</pubDate>
+        <lastBuildDate>Thu, 10 Oct 2024 01:16:07 +0800</lastBuildDate>
         <category term="博客，笔记" />
+        <item>
+            <guid isPermalink="true">https://imtangx.github.io/my-first-post/</guid>
+            <title>my first post</title>
+            <link>https://imtangx.github.io/my-first-post/</link>
+            <pubDate>Thu, 10 Oct 2024 01:16:07 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;嗯嗯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#嗯嗯&#34;&gt;#&lt;/a&gt; 嗯嗯&lt;/h2&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://imtangx.github.io/hello-world/</guid>
             <title>Hello World</title>
