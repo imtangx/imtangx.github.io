@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "imtx的博客",
-    "subtitle": "imtx的博客",
+    "title": "tx的博客",
+    "subtitle": "tx的博客",
     "icon": "https://imtangx.github.io/images/favicon.ico",
-    "description": "imtx的博客",
+    "description": "tx的博客",
     "home_page_url": "https://imtangx.github.io",
     "items": [
         {

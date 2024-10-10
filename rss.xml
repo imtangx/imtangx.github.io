@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>imtx的博客</title>
-        <subtitle>imtx的博客</subtitle>
+        <title>tx的博客</title>
+        <subtitle>tx的博客</subtitle>
         <icon>https://imtangx.github.io/images/favicon.ico</icon>
         <link>https://imtangx.github.io</link>
         <author>
           <name>imtx</name>
         </author>
-        <description>imtx的博客</description>
+        <description>tx的博客</description>
         <language>zh-CN</language>
         <pubDate>Thu, 10 Oct 2024 01:16:07 +0800</pubDate>
         <lastBuildDate>Thu, 10 Oct 2024 01:16:07 +0800</lastBuildDate>
