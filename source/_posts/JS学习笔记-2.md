@@ -152,35 +152,51 @@ function* makeRangeIterator(start = 0, end = Infinity, step = 1) {
 ```
 这是使用`function*`对上面代码的改写。
 
-### 可迭代对象
+### 自定义的可迭代对象
 常见的可迭代对象有`Array`和`Map`等。它们可以通过`for...of`循环遍历。\
-但如果要对一些不可迭代对象迭代呢?比如`Object`。可以自己在对象内部实现`[Symbol.iterator]()`方法，使其成为可迭代对象。
+如果想让`Object`也变为可迭代器：
+- 实现`[Symbol.iterator]()`方法，返回一个带有 `next()` 方法的迭代器对象。
+- 实现`*[Symbol.iterator]()`方法，返回一个生成器对象，支持`yield`关键字，这种方法更加自然。
 ```js
-const myIterator = {
+const myIterable = {
   arr: [1, 2, 3, 4],
   [Symbol.iterator]() {
-    let idx = 0;
-    const self = this;  // 保留对原始对象的引用
+    let nextIdx = 0;
     return {
-      next() {
-        if (idx < self.arr.length) {
-          return { value: self.arr[idx++], done: false };
+      next: () => {
+        if (nextIdx < this.arr.length) {
+          return { value: this.arr[nextIdx++], done: false };
         }
-        return { done: true };
+        return { value: nextIdx, done: true };
       },
-      [Symbol.iterator]() {
-        return this;  // 返回自己作为迭代器
-      }
     };
   },
 };
 
-const it = myIterator[Symbol.iterator]();  // 获取迭代器对象
-for (const item of it) {
-  console.log(item);  // 输出: 1, 2, 3, 4
+let it = myIterable[Symbol.iterator](); //取出迭代器对象后再调用next()
+let res = it.next();
+while (!res.done) {
+  console.log(res.value);
+  res = it.next();
 }
 ```
+```js
+const myIterable = {
+  arr: [1, 2, 3, 4],
+  *[Symbol.iterator]() {
+    for (let i = 0; i < this.arr.length; i++) {
+      yield this.arr[i];
+    }
+  },
+};
 
+//myIterable已经变成一个可迭代对象了
+for (const it of myIterable) {
+  console.log(it);
+}
+
+console.log(...myIterable);
+```
 ### 高级生成器
 `next()`也可以接受参数以修改生成器的状态，常见做法是根据参数重启生成器。
 

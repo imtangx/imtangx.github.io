@@ -34,15 +34,15 @@ var x = 1;
 
 ## 数据结构和类型
 七种基本数据类型: 
-- Boolean
+- boolean
 - null
 - undifined
-- Number
-- BigInt
-- String
-- Symbol \
+- number
+- bigInt
+- string
+- symbol \
 以及:
-- Object
+- object
 
 在`JS`中，数据类型无需在声明时指定，执行期间会自动推断。并且可以重新赋值为不同类型。\
 涉及字符串和数字相加时，会把数字转换为字符串。\
