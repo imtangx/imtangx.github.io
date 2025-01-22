@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: imtangx的博客
-subtitle: imtangx的博客
-description: imtangx的博客
+title: 博客
+# subtitle: imtangx的博客
+description: 这里是我对前端技术学习的一个记录分享平台，如果有什么错误的地方， 欢迎指出。
 keywords: 博客，笔记
-author: Garden Hamster
+author: imtangx
 language: zh-CN
 timezone: 'Asia/Shanghai'
 

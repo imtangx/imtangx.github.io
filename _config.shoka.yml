@@ -31,8 +31,8 @@ auto_scroll: true
 
 # Whether to show the loading cat
 loader:
-  start: true # When entering the page
-  switch: true # When switching to another page
+  start: false # When entering the page
+  switch: false # When switching to another page
 
 # click with Firework
 fireworks:
@@ -96,8 +96,8 @@ menu:
     archives: /archives/ || list-alt
     categories: /categories/ || th
     tags: /tags/ || tags
-  friends: /friends/ || heart
-  links: /links/ || magic
+  # friends: /friends/ || heart
+  # links: /links/ || magic
 
 # Social Links
 # Usage: `Key: permalink || icon || color`
@@ -105,7 +105,7 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  #github: https://github.com/yourname || github || "#191717"
+  github: https://github.com/imtangx || github || "#191717"
   #google: https://plus.google.com/yourname || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
   #zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
