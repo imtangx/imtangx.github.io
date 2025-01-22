@@ -1,7 +1,7 @@
 ---
 title: JS学习笔记(1)
 date: 2024-12-11 19:41:33
-tags: Javascript
+tags: JavaScript
 ---
 
 ## 三种声明方式 `var let const`

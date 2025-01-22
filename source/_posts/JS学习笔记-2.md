@@ -1,7 +1,7 @@
 ---
 title: JS学习笔记(2)
 date: 2024-12-13 14:19:13
-tags: Javascript
+tags: JavaScript
 ---
 ## `...`运算符
 剩余参数：在函数定义中用于接受传入的多余参数。\
