@@ -1,7 +1,7 @@
 ---
-title: 深入理解Promise与async/await
+title: 深入理解Promise
 date: 2025-01-22 21:43:15
-tags: [Javascript, Promise]
+tags: [JavaScript, Promise]
 cover:
 ---
 # `Promise`
